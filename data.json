@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "id": "0",
+      "firstName": "Ishak",
+      "lastName": "Ertem"
+    },
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe"
+    }
+  ],
+  "categories": [
+    {
+      "id": "3",
+      "name": "Goal Evidence"
+    },
+    {
+      "id": "4",
+      "name": "Support Coordination"
+    },
+    {
+      "id": " 5",
+      "name": "Active Duty"
+    }
+  ]
+}
