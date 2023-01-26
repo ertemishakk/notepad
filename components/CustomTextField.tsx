@@ -23,6 +23,7 @@ const CustomTextField = ({
   return (
     <View>
       <TextInput
+        autoCapitalize="sentences"
         value={values[id]}
         mode="outlined"
         autoFocus={autoFocus ? autoFocus : false}

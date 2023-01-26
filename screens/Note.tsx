@@ -64,6 +64,7 @@ const NewNote = () => {
           clientId: item?.clientId || '',
           categoryId: item?.categoryId || '',
         }}
+        validateOnChange={false}
         validationSchema={schema}
         onSubmit={submitForm}>
         {({handleSubmit}) => (

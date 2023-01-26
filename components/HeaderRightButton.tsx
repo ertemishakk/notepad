@@ -1,14 +1,13 @@
 import React, {useState} from 'react';
-import Touchable from './Touchable';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import {View, Text} from 'react-native';
+import {View, TouchableOpacity} from 'react-native';
 import DropdownMenu from './DropdownMenu';
 
 const HeaderRightButton = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <View>
-      <Touchable
+      <TouchableOpacity
         onPress={() => setShowMenu(visible => !visible)}
         style={{marginRight: 10, paddingLeft: 10}}>
         <Icon
@@ -17,7 +16,7 @@ const HeaderRightButton = () => {
           color="black"
           style={{marginRight: 10}}
         />
-      </Touchable>
+      </TouchableOpacity>
       {showMenu && <DropdownMenu />}
     </View>
   );
